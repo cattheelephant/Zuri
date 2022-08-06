@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #212529;
+}
+.head {
+    text-align: center;
+    margin-top: 30%;
+}
+span {
+    color: red;
+}
+a {
+    text-decoration-line: none;
+}
+.headd {
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 10%;
+}
+.text {
+    text-align: center;
+    margin-bottom: 30%;
+}
+button {
+    padding: 4%;
+    border: 1px solid red;
+    font-size: 100%;
+    margin: 3%;
+}
+.button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+#btn-1 {
+    background-color: red;
+    color: white;
+}
+#btn-1:hover {
+    background-color: transparent;
+    color: red;
+    cursor: pointer;
+}
+#btn-2 {
+    color: red;
+    background-color: transparent;
+}
+#btn-2:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.by-who {
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+.textt {
+    text-align: center;  
+    margin-bottom: 30%;
+    font-size: 25px; 
+}
+.sec {
+    background-color: seashell;
+    padding: 10%;
+    margin: 15% 7%;
+}
+h4 {
+    padding-top: 30%;
+}
+.white {
+    background-color: white;
+    color: black;
+    padding: 15% 3%;
+    display: relative;
+}
+.texttt {
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+.foot {
+    text-align: center;
+    padding-top: 50%;
+    padding-bottom: 7%;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 3%;
+}
+.link {
+    text-align: center;
+    padding-bottom: 10%;
+}
+.footer {
+    padding-top: 10%;
+    padding-bottom: 30%;
+    text-align: center;
+    font-weight: 700;
+}
+.ttext {
+    text-align: center;
+    margin-bottom: 5%;
+}
+#link {
+    font-size: 14px;
+}
+@media screen and (min-width: 769px) {
+    .head {
+       margin-top: 7%; 
+    }
+    .headd {
+        margin-top: 7%;
+        margin-bottom: 5%;
+    }
+    .text {
+        padding: 0 6%;
+        margin-bottom: 10%;
+    }
+    .button {
+        flex-direction: row;
+        justify-content: center;
+    }
+    button {
+        margin: 0 10%;
+    }
+    .by-who {
+        margin-top: 65%;
+        margin-bottom: 1%;
+    }
+    .textt {
+        padding: 0 20%;
+        margin-top: 1em;
+        margin-bottom: 0;
+    }
+    .zuri {
+        display: flex;
+        justify-content: space-between;
+        padding: 8em 4em 5em 1em;
+    }
+    .foot {
+        padding-top: 0;
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+    .h2 {
+        font-size: 16px;
+        padding-bottom: 1em;
+        padding-top: 0;
+        text-align: justify;
+    }
+    .ttext {
+        text-align: justify;
+        padding-top: 0;
+        margin-top: 0;
+    }
+    .link {
+        text-align: justify;
+    }
+    .footer {
+        padding-bottom: 15%;
+        padding-top: 5%;
+    }
+    .sec {
+        margin: 7% 4%;
+        padding: 10% 5%;
+    }
+    /*#contact {
+        padding-top: 0;
+    }
+    #links {
+        padding-top: 0;
+    }*/
+}
+    @media screen and (min-width: 992px) {
+    .flex {
+        display: flex;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    #first-sec {
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-left: 10%;
+        padding-bottom: 15%;
+        width: 63%;
+        height: 80%;
+        margin-right: 0;
+        margin-top: 16%;
+    }
+    #second-sec {
+        width: 80%;
+        margin-top: 18%;
+        height: 85%;
+        margin-left: 0;
+        padding-left: 10%;
+        padding-top: 3%;
+        
+    }
+    #third-sec {
+        width: 80%;
+        height: 85%;
+        margin-left: 9%;
+        margin-top: 17%;
+        padding-top: 1%;
+    }
+    .text {
+        padding: 0 16%;
+    }
+    .by-who {
+        margin-top: 35%;
+    }
+    .textt {
+        margin-right: 11%;
+        margin-left: 7%;
+    }
+}
